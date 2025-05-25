@@ -5,8 +5,11 @@
 **Equipe:**
 
 Julia Lisandra Furuguem de Souza
+
 Lucas Loiola Bezerra
+
 Rafael Andrade
+
 David José Correa de Souza
 
 **Metodologia:** Ágil (Scrum ou Kanban)

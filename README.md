@@ -1,4 +1,4 @@
-# Documentação do Projeto – Aplicativo: Diabeta
+# Aplicativo: Diabeta
 
 **Curso:** Análise e Desenvolvimento de Sistemas (5º semestre)
 

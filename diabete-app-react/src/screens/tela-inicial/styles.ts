@@ -1,0 +1,77 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container1: {
+      flex: 1,
+  },
+  container: {
+    flex: 1,
+    backgroundColor: '#094f88',
+    paddingHorizontal: 16,
+    paddingTop: 60, 
+    alignItems: 'center',
+  },
+titulo: {
+  fontSize: 28,
+  fontWeight: '600',
+  fontFamily:  'Arial',
+  color: '#fff',
+  marginTop: 30,  
+  textShadowColor: 'rgba(0,0,0,0.1)',
+  textShadowOffset: { width: 0, height: 1 },
+  textShadowRadius: 2,
+},
+logo: {
+  width: 420,
+  height: 420,
+},
+  content: {
+    flex: 1,
+    width: '100%',
+    marginTop: 20,
+    padding: 5,
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+  },
+  descricao: {
+    fontSize: 21,
+    fontFamily:  'Arial',
+    color: '#fff',
+    textAlign: 'center',
+    marginBottom: 25,
+    lineHeight: 28,
+    fontWeight: '400',
+  },
+  botao: {
+    backgroundColor: 'rgba(255, 255, 255, 0.83)',
+    paddingVertical: 12,
+    paddingHorizontal: 90,
+    margin: 30,
+    borderRadius: 20,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  textoBotao: {
+    color: '#163D5D',
+    fontSize: 22,
+    fontWeight: '500',
+    textAlign: 'center',
+    letterSpacing: 0.5,
+    textShadowColor: 'rgba(255,255,255,0.15)',
+    textShadowOffset: { width: 0, height: 1 },
+    textShadowRadius: 2,
+  },
+  loadingOverlay: {
+    flex: 1,
+    backgroundColor: 'rgb(9, 79, 136)',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  loadingText: {
+    color: '#fff',
+    fontSize: 22,
+    fontWeight: '500',
+    marginTop: 0,
+    textAlign: 'center',
+  },
+});

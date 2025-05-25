@@ -1,0 +1,117 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 20,
+    backgroundColor: '#F6F8FC',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+  },
+  titulo: {
+    fontSize: 28,
+    fontWeight: 'bold',
+    marginBottom: 10,
+    textAlign: 'center',
+    color: '#2C3166',
+    letterSpacing: 0.2,
+  },
+  subtituloDescricao: {
+    textAlign: 'left',
+    color: '#4B4F6B',
+    fontSize: 18,
+    marginBottom: 10,
+  },
+  card: {
+    backgroundColor: '#E3E6FA',
+    borderRadius: 24,
+    padding: 24,
+    marginBottom: 18,
+    width: '100%',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.06,
+    shadowRadius: 8,
+    elevation: 2,
+  },
+  cardTitulo: {
+    fontSize: 17,
+    fontWeight: 'bold',
+    marginBottom: 10,
+    color: '#2C3166',
+  },
+  cardTexto: {
+    fontSize: 16,
+    color: '#2C3166',
+    marginBottom: 2,
+    flexWrap: 'wrap',
+  },
+  cardValorPrincipal: {
+    fontSize: 38,
+    fontWeight: 'bold',
+    color: '#2C3166',
+    marginBottom: 2,
+  },
+  cardSecundario: {
+    backgroundColor: '#fff',
+    borderRadius: 20,
+    borderWidth: 1,
+    borderColor: '#E3E6FA',
+    padding: 20,
+    marginBottom: 18,
+    width: '100%',
+  },
+  dicasTitulo: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#2C3166',
+    marginTop: 10,
+    marginBottom: 12,
+    alignSelf: 'flex-start',
+  },
+  dicaCard: {
+    flexDirection: 'column', 
+    alignItems: 'center',
+    borderRadius: 16,
+    padding: 16,
+    marginBottom: 12,
+    width: '100%',
+  },
+  dicaIcone: {
+    fontSize: 24,
+    marginRight: 12,
+  },
+  dicaAmarela: {
+    backgroundColor: '#FFF8DC',
+  },
+  dicaVerde: {
+    backgroundColor: '#E6F7EC',
+  },
+  dicaBege: {
+    backgroundColor: '#F9F6F2',
+  },
+  dicaVermelha: {
+    backgroundColor: '#FDECEA',
+  },
+  grafico: {
+    backgroundColor: '#e0f7fa',
+    borderRadius: 12,
+    padding: 16,
+    width: '100%',
+    marginBottom: 20,
+  },
+  cardAlerta: {
+    backgroundColor: '#fff3cd',
+    borderRadius: 12,
+    padding: 16,
+    marginBottom: 16,
+    borderLeftWidth: 6,
+    borderLeftColor: '#ffc107',
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  iconeAlerta: {
+    fontSize: 28,
+    marginRight: 12,
+  },
+});

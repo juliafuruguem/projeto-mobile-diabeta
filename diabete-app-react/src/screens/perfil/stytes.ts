@@ -1,0 +1,107 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+    container1: {
+    flex: 1,
+    justifyContent: 'flex-start',
+    paddingHorizontal: 24,
+    paddingTop: 10,
+  },
+  titulo: {
+    fontSize: 24,
+    fontWeight: '700',
+    color: 'rgba(16, 47, 80, 0.8)',
+    marginBottom: 25,
+    textAlign: 'center',
+  },
+  subtitulo: {
+    fontSize: 16,
+    color: 'rgba(16, 47, 80, 0.73)',
+    textAlign: 'center',
+    marginBottom: 30,
+    paddingHorizontal: 12,
+  },
+  label: {
+    fontSize: 18,
+    fontWeight: '600',
+    color: '#22304A',
+    marginBottom: 6,
+    marginLeft: 2,
+    textAlign: 'left', 
+    alignSelf: 'flex-start', 
+  },
+  input: {
+    height: 50,
+    width: 300,
+    borderBottomColor: 'rgba(62, 100, 129, 0.32)',
+    borderBottomWidth: 1,
+    borderWidth: 0,     
+    backgroundColor: 'transparent',
+    paddingHorizontal: 0,     
+    fontSize: 18,
+    color: 'rgba(16, 47, 80, 0.88)',
+    marginBottom: 25,
+    borderRadius: 0,           
+  },
+  botao: {
+    marginTop: 5,
+    marginBottom: 5,
+    backgroundColor: 'rgb(9, 79, 136)',
+    paddingVertical: 14,
+    paddingHorizontal: 24,
+    borderRadius: 17,
+    alignItems: 'center',
+    width: 300,
+  },
+  textoBotao: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: '600',
+  },
+  decoracoesContainer: {
+    position: 'absolute',
+    top: 50,
+    left: 24,
+    flexDirection: 'column',
+    gap: 12,
+    zIndex: 3,
+  },
+  selectBox: {
+    paddingVertical: 5,
+    paddingHorizontal: 5,
+    height: 'auto',
+    marginBottom: 14,
+    borderWidth: 1,
+    borderColor: '#E3E6FA',
+    backgroundColor: '#F8FAFF',
+    borderRadius: 12,
+    fontSize: 18,
+    color: '#22304A',
+  },
+  selectInput: {
+    color: 'rgba(16, 47, 80, 0.88)',
+    fontSize: 18,
+    paddingVertical: 0,
+    paddingHorizontal: 0,
+  },
+  selectDropdown: {
+    paddingVertical: 0,
+    borderWidth: 0,
+    minHeight: 0,
+  },
+  selectDropdownText: {
+    color: 'rgba(16, 47, 80, 0.62)',
+    fontSize: 17,
+    paddingVertical: 0,
+  },
+  selectListInput: {
+    color: 'rgba(16, 47, 80, 0.88)',
+    fontSize: 18,
+  },
+  selectListDropdown: {
+    color: 'rgba(16, 47, 80, 0.62)',
+    fontSize: 18,
+  },
+});
+
+
